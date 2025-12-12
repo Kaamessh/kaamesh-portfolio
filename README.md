@@ -21,7 +21,7 @@
 
 **A modern, responsive, and visually stunning portfolio website showcasing my journey as a Data Professional**
 
-[View Demo](https://dineshbarri.dev) · [Report Bug](https://github.com/dineshbarri/dineshbarri-portfolio/issues) · [Request Feature](https://github.com/dineshbarri/dineshbarri-portfolio/issues)
+[View Demo](https://dineshbarri-portfolio.vercel.app) · [Report Bug](https://github.com/dineshbarri/dineshbarri-portfolio/issues) · [Request Feature](https://github.com/dineshbarri/dineshbarri-portfolio/issues)
 
 </div>
 
