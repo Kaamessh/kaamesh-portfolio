@@ -60,16 +60,14 @@ This portfolio website is designed to **WOW** visitors with its premium aestheti
 ## 🖼️ Preview
 
 <div align="center">
-
-### 🌟 Hero Section
-*Dynamic typewriter effect with smooth animations*
-
-### 💼 Experience Timeline
-*Interactive work history with hover effects*
-
-### 📧 Contact Form
-*Fully functional with EmailJS integration*
-
+ 
+ [Portfolio_Website Preview](https://github.com/user-attachments/assets/4c0597d2-472e-4da1-8bb7-ffaf92cff2d2)
+  <p>
+    <a href="https://dineshbarri-portfolio.vercel.app" target="_blank">
+      🚀 View Live Demo
+    </a>
+  </p>
+  
 </div>
 
 ---
@@ -140,12 +138,12 @@ Message:
 {{message}}
 ```
 
-4. Save and copy your **Template ID** (e.g., `template_tlvoipb`)
+4. Save and copy your **Template ID** (e.g., `template_tlv...`)
 
 ### Step 4: Get Your Public Key
 
 1. Go to **Account** → **General**
-2. Copy your **Public Key** (e.g., `GucQZNTsN9ZVLCPg7`)
+2. Copy your **Public Key** (e.g., `GucQZNTs.....`)
 
 ### Step 5: Update the Code
 
