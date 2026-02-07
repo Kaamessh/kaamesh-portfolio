@@ -350,6 +350,8 @@ Edit the project cards in `src/components/Projects.tsx` and add assets under `pu
 
 ## 📫 Contact
 
+**Kaamesh**
+
 - 🐙 GitHub: [github.com/Kaamessh](https://github.com/Kaamessh)
 - Issues: Please open an issue in this repository
 
