@@ -71,9 +71,7 @@ This portfolio website is designed to **WOW** visitors with its premium aestheti
  
  [Portfolio_Website Preview](https://github.com/user-attachments/assets/4c0597d2-472e-4da1-8bb7-ffaf92cff2d2)
   <p>
-    <a href="https://dineshbarri-portfolio.vercel.app" target="_blank">
-      🚀 View Live Demo
-    </a>
+    🚀 Live demo coming soon
   </p>
   
 </div>
@@ -94,10 +92,10 @@ Follow these steps to run the portfolio locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/dineshbarri/dineshbarri-portfolio.git
+git clone https://github.com/Kaamessh/kaamesh-portfolio.git
 
 # 2️⃣ Navigate to the project directory
-cd dineshbarri-portfolio
+cd kaamesh-portfolio
 
 # 3️⃣ Install dependencies
 npm install
@@ -181,7 +179,7 @@ Ensure your form field names match the template variables:
 ## 🏗️ Project Structure
 
 ```
-dineshbarri-portfolio/
+kaamesh-portfolio/
 ├── public/                    # Static assets
 │   ├── images/               # Project images and logos
 │   └── resume.pdf            # Downloadable resume
@@ -373,14 +371,8 @@ This portfolio highlights various data science and analytics projects:
 
 ## 📫 Contact
 
-**Dinesh Barri**
-
-- 📧 Email: [dineshbarri1997@gmail.com](mailto:dineshbarri1997@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/dinesh-barri](https://www.linkedin.com/in/dinesh-barri/)
-- 🐙 GitHub: [github.com/dineshbarri](https://github.com/dineshbarri)
-- 🌐 Portfolio: [dineshbarri.dev](https://dineshbarri.dev)
-- 📱 Phone: +353 89 203 3146
-- 📍 Location: Dublin, Ireland 🇮🇪
+- 🐙 GitHub: [github.com/Kaamessh](https://github.com/Kaamessh)
+- Issues: Please open an issue in this repository
 
 ---
 
