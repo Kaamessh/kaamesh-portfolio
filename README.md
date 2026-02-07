@@ -301,7 +301,7 @@ Real-time form validation with:
 ## 🖼️ Custom Photo
 
 To customize the Hero image:
-- Add your image as `public/photo.jepg`.
+- Add your image as `public/photo.jpeg`.
 - The app loads it automatically; if the file is missing, the image will be hidden.
 
 ## 🌐 Deployment
@@ -336,36 +336,15 @@ npm run deploy
 
 ---
 
-## 📊 Portfolio Projects Showcase
+## 📊 Projects
 
-This portfolio highlights various data science and analytics projects:
+Showcase your top projects here. Replace with your own:
 
-### 🏨 **Ireland Hotel Analytics**
-- End-to-end data pipeline analyzing Irish hospitality market
-- Technologies: Python, SQL, Tableau, Netlify
-- [Live Demo](https://ireland-hotel-analytics.netlify.app/) | [GitHub](https://github.com/dineshbarri/ireland-hotel-pricing-ratings-analysis)
+- Project A — brief description, key technologies, and links
+- Project B — brief description, key technologies, and links
+- Project C — brief description, key technologies, and links
 
-### 🎥 **AI Video Factory**
-- Automated video creation with Google Veo3 and n8n
-- Technologies: AI, Automation, YouTube API, Google Drive
-- [GitHub](https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline)
-
-### 🏅 **Olympic Data Analytics Dashboard**
-- 120 years of Olympic history visualization (1896-2016)
-- Technologies: Power BI, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Olympic-Data-Analytics-Dashboard-1896-2016-Power-BI-Insights)
-
-### 🤖 **Plemdo AI Enterprise Analytics**
-- WhatsApp to boardroom report in 60 seconds
-- Technologies: AI, n8n, WhatsApp API, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Plemdo-AI-Enterprise-Analytics)
-
-### 🧙 **Harry Potter Data Analytics**
-- Interactive Tableau dashboard with book sales and trends
-- Technologies: Tableau, EDA, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Wizarding-Analytics-Harry-Potter-Through-Data-)
-
-*...and many more on my [GitHub](https://github.com/dineshbarri?tab=repositories)!*
+Edit the project cards in `src/components/Projects.tsx` and add assets under `public/` as needed.
 
 ---
 
