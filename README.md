@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🌈 Modern Gradient Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:4F46E5,100:9333EA&text=Dinesh+Barri+%7C+Portfolio+Website&fontColor=ffffff&fontSize=45&fontAlignY=35&desc=Modern+AI+Driven+Portfolio+Built+with+Precision&descAlignY=60&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:4F46E5,100:9333EA&text=Kaamesh+%7C+Portfolio+Website&fontColor=ffffff&fontSize=45&fontAlignY=35&desc=Modern+AI+Driven+Portfolio+Built+with+Precision&descAlignY=60&animation=fadeIn" />
 
 <!-- ✨ Typing Subtitle -->
 <p align="center">
@@ -299,6 +299,12 @@ Real-time form validation with:
 - Loading states during submission
 
 ---
+
+## 🖼️ Custom Photo
+
+To customize the Hero image:
+- Add your image as `public/photo.jepg`.
+- The app loads it automatically; if the file is missing, the image will be hidden.
 
 ## 🌐 Deployment
 

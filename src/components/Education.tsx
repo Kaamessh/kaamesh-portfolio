@@ -5,33 +5,19 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 
 const educationData = [
   {
-    degree: 'MS in Data Science',
-    institution: 'Dublin Business School',
-    location: 'Dublin, Ireland',
-    period: 'Sep 2023 - Sep 2024',
-    // grade: 'Distinction', // Grade removed as per instruction
-    logo: 'DBS',
-    description: 'Comprehensive program covering machine learning, statistical analysis, data visualization, and applied data science methodologies.',
-    learnings: [
-      'Advanced machine learning and predictive modeling',
-      'Statistical analysis and hypothesis testing',
-      'Data visualization and storytelling with Tableau and Power BI',
-      'Big data processing and cloud computing'
-    ]
-  },
-  {
-    degree: 'Bachelor of Technology - BTech, Computer Science',
-    institution: 'Gayatri Vidya Parishad College of Engineering (Autonomous)',
+    degree: 'Bachelor of Technology – BTech, Artificial Intelligence and Data Science',
+    institution: 'SRM Valliammai Engineering College',
     location: 'India',
-    period: '2015 - 2019',
-    // grade: '8.4/10', // Grade removed as per instruction
-    logo: 'GVP',
-    description: 'Strong foundation in computer science fundamentals and software development.',
+    period: '2023 - 2027',
+    logo: 'SRM',
+    description:
+      'Strong Foundation in AI, Data Science & Software Development. Strong academic and practical foundation in Artificial Intelligence, Data Science, and modern software development, with hands-on experience in building intelligent, data-driven applications.',
     learnings: [
-      'Strong foundations in data structures, algorithms, OS, DBMS',
-      'Hands-on software development experience',
-      'Object-oriented programming & application building',
-      'Problem-solving and algorithmic thinking'
+      'Strong foundations in Data Structures & Algorithms, Probability & Statistics, Linear Algebra, DBMS',
+      'Solid understanding of Machine Learning, Deep Learning, and AI fundamentals',
+      'Hands-on experience in data preprocessing, feature engineering, and model evaluation',
+      'Object-Oriented Programming and end-to-end application development',
+      'Strong problem-solving, analytical thinking, and algorithmic reasoning'
     ]
   }
 ];

@@ -3,7 +3,6 @@ import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { Mail, Send, MapPin, Linkedin, Github, Phone } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
-import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const ref = useRef(null);
@@ -14,28 +13,35 @@ export const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      const result = await emailjs.sendForm(
-        'service_rus0kuj',
-        'template_tlvoipb',
-        e.currentTarget,
-        'GucQZNTsN9ZVLCPg7'
-      );
+    const form = e.currentTarget as HTMLFormElement;
+    const formData = new FormData(form);
+    const name = String(formData.get('from_name') || '');
+    const email = String(formData.get('from_email') || '');
+    const subject = String(formData.get('subject') || '');
+    const message = String(formData.get('message') || '');
 
-      if (result.text === 'OK') {
-        toast({
-          title: "Message sent!",
-          description: "Thank you for reaching out. I'll get back to you soon.",
-        });
-        (e.target as HTMLFormElement).reset();
-      }
+    const bodyLines = [
+      `Name: ${name}`,
+      `Email: ${email}`,
+      '',
+      message,
+    ];
+    const mailto = `mailto:kaamesh712006@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+
+    try {
+      window.location.href = mailto;
+      toast({
+        title: 'Opening email client…',
+        description: 'Your message will be sent to kaamesh712006@gmail.com.',
+      });
+      form.reset();
     } catch (error) {
       toast({
-        title: "Error sending message",
-        description: "Something went wrong. Please try again or email me directly.",
-        variant: "destructive",
+        title: 'Could not open email client',
+        description: 'Please email me directly at kaamesh712006@gmail.com.',
+        variant: 'destructive',
       });
-      console.error('EmailJS Error:', error);
+      console.error('Mailto Error:', error);
     } finally {
       setIsSubmitting(false);
     }
@@ -72,7 +78,7 @@ export const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:dineshbarri1997@gmail.com"
+                href="mailto:kaamesh712006@gmail.com"
                 className="flex items-center gap-4 glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -80,12 +86,12 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium group-hover:text-primary transition-colors">dineshbarri1997@gmail.com</p>
+                  <p className="font-medium group-hover:text-primary transition-colors">kaamesh712006@gmail.com</p>
                 </div>
               </a>
 
               <a
-                href="tel:+353892033146"
+                href="tel:+916379961830"
                 className="flex items-center gap-4 glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -93,7 +99,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium group-hover:text-primary transition-colors">+353 89 203 3146</p>
+                  <p className="font-medium group-hover:text-primary transition-colors">+91 6379961830</p>
                 </div>
               </a>
 
@@ -103,7 +109,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Dublin, Ireland 🇮🇪</p>
+                  <p className="font-medium">Chennai, India</p>
                 </div>
               </div>
             </div>
@@ -111,14 +117,14 @@ export const Contact = () => {
             {/* Social Links */}
             <div className="mt-8">
               <p className="text-sm text-muted-foreground mb-4">Connect on social media</p>
-              <div className="flex gap-3">
-                <a href="https://www.linkedin.com/in/dinesh-barri/" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <div className="flex gap-3 justify-center">
+                <a href="https://www.linkedin.com/in/kaamesh-p-3b062b2b9/" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://github.com/dineshbarri" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://github.com/Kaamessh" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <Github size={20} />
                 </a>
-                <a href="mailto:dineshbarri1997@gmail.com" className="social-icon">
+                <a href="mailto:kaamesh712006@gmail.com" className="social-icon">
                   <Mail size={20} />
                 </a>
               </div>

@@ -5,7 +5,6 @@ import { Menu, X } from 'lucide-react';
 const navLinks = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
-  { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#education', label: 'Education' },
   { href: '#certifications', label: 'Certifications' },
@@ -35,7 +34,7 @@ export const Navbar = () => {
       <nav className="section-container py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="font-display text-xl font-bold">
-            <span className="gradient-text">{`{ DB }`}</span>
+            <span className="gradient-text">{`{ KP }`}</span>
           </a>
 
           {/* Desktop Navigation */}

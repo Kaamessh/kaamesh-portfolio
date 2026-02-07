@@ -45,7 +45,7 @@ export const Hero = () => {
           >
             <p className="text-primary font-medium mb-4 text-lg">Hi, I am</p>
             <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dinesh <span className="gradient-text">Barri</span>
+              <span className="gradient-text">Kaamesh</span>
             </h1>
           </motion.div>
 
@@ -58,7 +58,7 @@ export const Hero = () => {
           >
             <TypeWriter
               words={[
-                'Data Analyst & Data Scientist',
+                'Data Analyst',
                 'AI Agent Developer',
                 'Codeforces Master',
                 'ML Enthusiast',
@@ -75,9 +75,9 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-muted-foreground mb-8 max-w-xl leading-relaxed"
           >
-            Based in Dublin, Ireland 🇮🇪.
+            Based in Chennai, India.
             <br /><br />
-            I build intelligent data products—analytics pipelines, machine learning models, and n8n/RAG AI agents. My focus is on clean design, automation, and end-to-end systems that turn data into action. I enjoy breaking complex problems into simple, scalable solutions.
+            I build AI-powered applications and data-driven systems—from sentiment analysis platforms and chatbots to full-stack web and mobile applications. My work focuses on clean architecture, backend intelligence, and practical AI integration, turning ideas and data into scalable, real-world solutions. I enjoy breaking complex problems into simple, scalable solutions.
           </motion.p>
 
           {/* Social Links */}
@@ -87,13 +87,13 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex gap-4 mb-10"
           >
-            <a href="https://github.com/dineshbarri" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/Kaamessh" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/dinesh-barri/" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/kaamesh-p-3b062b2b9/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:dineshbarri1997@gmail.com" className="social-icon">
+            <a href="mailto:kaamesh712006@gmail.com" className="social-icon">
               <Mail size={20} />
             </a>
           </motion.div>
@@ -109,8 +109,8 @@ export const Hero = () => {
               View Projects
               <ArrowDown size={18} className="-rotate-90" />
             </a>
-            <a href="/Dinesh_Barri_Google_Resume.pdf"
-              download="Dinesh_Barri_Google_Resume.pdf"
+            <a href="/Resume%20Kaamesh.pdf"
+              download="Resume Kaamesh.pdf"
               className="btn-secondary flex items-center gap-2"
             >
               Resume
@@ -136,11 +136,24 @@ export const Hero = () => {
               transition={{ duration: 0.3 }}
               className="relative w-full h-full rounded-[2rem] overflow-hidden border-2 border-primary/30 shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer"
             >
-              <img
-                src="https://avatars.githubusercontent.com/u/28930465?v=4"
-                alt="Dinesh Barri"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-              />
+              {(() => {
+                const fallbackQueue = ["/photo.jpg", "/photo.jpeg", "/photo.png"];
+                return (
+                  <img
+                    src="/photo.jepg"
+                    alt="Profile Photo"
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    onError={(e) => {
+                      const next = fallbackQueue.shift();
+                      if (next) {
+                        (e.currentTarget as HTMLImageElement).src = next;
+                      } else {
+                        (e.currentTarget as HTMLImageElement).style.display = "none";
+                      }
+                    }}
+                  />
+                );
+              })()}
 
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />

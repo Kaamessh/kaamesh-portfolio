@@ -25,7 +25,7 @@ const skillCategories = [
   },
   {
     title: 'Tools & Platforms',
-    skills: ['Git/GitHub', 'Jupyter', 'VS Code', 'Docker', 'JIRA', 'Confluence', 'Trello', 'MS Visio', 'Lucidchart'],
+    skills: ['Git/GitHub', 'Jupyter', 'VS Code', 'Docker'],
   },
   {
     title: 'Algorithms & Competitive Programming',

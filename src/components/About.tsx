@@ -68,10 +68,16 @@ export const About = () => {
             <h3 className="font-display text-xl font-semibold mb-4 gradient-text">Background</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 4 years of experience in <span className="text-foreground font-medium">Data Science and Data Analytics</span>, my career has been centered around turning data into clarity, intelligence, and real business value. I’ve worked across the full data lifecycle—exploring messy datasets, building ML models, creating dashboards, and developing automation systems that help teams work smarter. Over time, this naturally led me into <span className="text-primary font-medium">AI Agent development</span>, where I now build n8n workflows and RAG-powered assistants that combine domain knowledge with the capabilities of modern LLMs. For me, the most rewarding projects are the ones where analytics and AI come together to make someone’s work easier, faster, or more informed.
+                I am an AI & Data Science undergraduate with hands-on experience in building real-world, end-to-end applications that combine data, logic, and intelligent systems. My journey has been driven by a strong interest in understanding how data can be transformed into meaningful insights and practical solutions. Through academic projects, hackathons, and self-driven development, I have worked across the application lifecycle—designing backend services, integrating APIs, working with databases, and developing responsive web and mobile interfaces.
               </p>
               <p>
-                What motivates me is solving problems that don’t have obvious answers. <span className="text-primary font-medium">Competitive programming</span> shaped the way I think—break the challenge down, explore patterns, and build solutions that are both simple and scalable. Whether I’m designing a data pipeline, optimizing a model, or creating an AI-driven automation, I aim to deliver tools that feel reliable, intuitive, and genuinely helpful. I’m driven by continuous learning, practical impact, and the belief that well-designed data systems can meaningfully improve how people and teams make decisions.
+                Over time, my focus has expanded toward applied AI, including sentiment analysis systems, chatbot platforms, and automation-driven applications using modern frameworks and tools such as Python, FastAPI, Node.js, Flutter, React, and MongoDB. I enjoy building systems that are not just technically correct, but also useful, scalable, and user-focused.
+              </p>
+              <p>
+                What motivates me most is solving problems that don’t have straightforward answers. My experience in competitive problem-solving, hackathons, and student leadership has shaped the way I think—breaking down complex challenges, experimenting with solutions, and iterating quickly. Whether I am developing an AI-driven feature, optimizing backend logic, or leading a team as a student representative, I aim to create solutions that are reliable, efficient, and impactful.
+              </p>
+              <p>
+                I am driven by continuous learning, innovation, and real-world impact, with a long-term goal of contributing to advanced AI systems and data-driven decision-making at a global scale.
               </p>
             </div>
           </motion.div>

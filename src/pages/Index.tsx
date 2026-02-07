@@ -3,7 +3,6 @@ import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { Skills } from '@/components/Skills';
 import { Projects } from '@/components/Projects';
-import { Experience } from '@/components/Experience';
 import { Education } from '@/components/Education';
 import { Certifications } from '@/components/Certifications';
 import { Contact } from '@/components/Contact';
@@ -16,12 +15,12 @@ const Index = () => {
   const [showAllCertifications, setShowAllCertifications] = useState(false);
 
   useEffect(() => {
-    document.title = 'Dinesh Barri | Data Analyst & Data Scientist Portfolio';
+    document.title = 'Kaamesh | Data Analyst & Data Scientist Portfolio';
 
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content',
-        'Portfolio of Dinesh Barri - Data Analyst, Data Scientist, and Codeforces Master based in Dublin, Ireland. Expertise in Python, SQL, Machine Learning, Tableau, Power BI, and competitive programming.'
+        'Portfolio of Kaamesh - Data Analyst, Data Scientist, and Codeforces Master based in Chennai, India. Expertise in Python, SQL, Machine Learning, Tableau, Power BI, and competitive programming.'
       );
     }
   }, []);
@@ -33,7 +32,6 @@ const Index = () => {
         <Hero />
         <About />
         <Skills />
-        <Experience />
         <Projects />
         <Education />
 
