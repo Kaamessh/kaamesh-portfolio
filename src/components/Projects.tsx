@@ -15,13 +15,13 @@ const categories = [
 
 const projects = [
   {
-    title: 'AI Chatbot – Fine-Tuned RedPajama LLM',
+    title: 'Website Navigation Using RAG',
     description:
-      'Designed and fine-tuned a RedPajama Large Language Model to build a domain-specific conversational AI system. Performed data preprocessing, tokenization, and supervised fine-tuning to improve response accuracy and contextual understanding. Implemented prompt optimization and inference pipelines for real-time interactions, and evaluated model performance using response relevance and coherence metrics.',
-    tags: ['Python', 'Transformers', 'RedPajama LLM', 'Hugging Face', 'NLP'],
+      'Developed a RAG-based conversational assistant using React, FastAPI, and Supabase pgvector that crawls websites, generates semantic embeddings (all-MiniLM-L6-v2), and resolves user navigation queries through real-time vector search..',
+    tags: ['Python', 'Transformers', 'all-MiniLM-L6-v2', 'Hugging Face', 'NLP'],
     categories: ['🧠 ML & Data Science', '🤖 AI & Automation'],
-    github: '#',
-    image: '/logos/deeplearning.png',
+    github: 'https://github.com/Kaamessh/Automated_web_navigation',
+    image: '/logos/Web.png',
   },
   {
     title: 'AI Chatbot – API-Based LLM Integration',
