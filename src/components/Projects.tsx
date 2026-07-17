@@ -42,13 +42,13 @@ const projects = [
     image: '/logos/deeplearning.png',
   },
   {
-    title: 'Expense Tracker – Full-Stack Web Application',
+    title: 'Expense Tracker – Full-Stack Web And App',
     description:
       'Developed a full-stack expense tracking application to record, categorize, and analyze personal finances. Built a responsive frontend using React for real-time visualization, and designed RESTful APIs with Node.js and Express.js for secure data handling. Integrated MongoDB for efficient storage and retrieval, with CRUD operations, authentication-ready architecture, and a scalable backend.',
-    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'REST APIs'],
+    tags: ['React', 'Node.js', 'Express.js', 'Supabase', 'Flutter', 'Dart'],
     categories: ['🌐 Web Development'],
-    github: '#',
-    image: '/logos/deeplearning.png',
+    github: 'https://github.com/Kaamessh/expenseph',
+    image: '/logos/Expense.png',
   },
 ];
 
