@@ -5,7 +5,7 @@ import { useRef } from 'react';
 const skillCategories = [
   {
     title: 'Programming & Analytics',
-    skills: ['Python', 'Java', 'C++', 'C', 'JavaScript', 'TypeScript', 'R', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn', 'SciPy', 'Statsmodels'],
+    skills: ['Python', 'Java','C', 'JavaScript', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn', 'SciPy', 'Statsmodels'],
   },
   {
     title: 'AI Agents & Intelligent Automation',
@@ -13,7 +13,7 @@ const skillCategories = [
   },
   {
     title: 'Data Visualization & BI',
-    skills: ['Tableau', 'Power BI', 'Matplotlib', 'Seaborn', 'Plotly', 'Looker Studio', 'Excel Pivot Tables'],
+    skills: ['Tableau', 'Power BI', 'Matplotlib', 'Seaborn', 'Plotly','Excel Pivot Tables'],
   },
   {
     title: 'Machine Learning & AI',
